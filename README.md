@@ -5,7 +5,7 @@ This is a Rust program that reads a BSON file and converts it into a pretty-prin
 To use the program, run the binary file with the path to a BSON file as an argument:
 
 ```bash
-bison <file.bson>
+bisonn <file.bson>
 ```
 
 # Dependencies
