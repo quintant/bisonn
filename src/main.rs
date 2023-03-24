@@ -14,7 +14,7 @@ use bson::Document;
 fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
-        println!("Usage: bsondump <file.bson>");
+        println!("Usage: bisonn <file.bson>");
         std::process::exit(1);
     }
 
