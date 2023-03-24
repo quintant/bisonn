@@ -2,9 +2,22 @@
 name = "bisonn"
 version = "0.1.0"
 edition = "2021"
+# License and other info
+license = "MIT"
+description = "Bisonn is a simple and fast BSON parser written in Rust"
+repository = "https://github.com/quintant/bisonn"
+readme = "README.md"
+keywords = ["bson", "parser", "rust"]
+categories = ["parsing"]
+authors = ["Quintant <sigurjoni52@gmail.com>"]
+documentation = "https://docs.rs/bisonn"
+homepage = "https://quintant.github.io/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 bson = "2.6.1"
 serde_json = "1.0.94"
+
+[metadata]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html#the-metadata-table
